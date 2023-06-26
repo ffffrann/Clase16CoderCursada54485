@@ -1,0 +1,26 @@
+Comandos:
+__________________
+1) git --version: para ver la version de git
+
+2) configuracion de git:
+
+git config --global user.name "Franco Fernandez"
+git config --global user.email "francofernandez0514@gmail.com"
+git config --global core.editor "code --wair"
+git config --list
+
+3) trabajando con git:
+git init: para inicializar git en nuestro proyecto
+
+-Comando para relacionar nuestro repositorio github a nuestro proyecto en la PC(Git)
+git remote add origin https://github.com/ffffrann/Clase16CoderCursada54485.git
+
+-Revisamos el estado de nuestro proyecto
+git status
+
+-Comando para agregar a la lista de elementos a enviar a github
+git add "nombre del archivo" (Selecciona el archivo especifico)
+git add * o git add . (Selecciona todo)
+
+-Comando para darle descripcion al cambio
+git commit -m "Mensaje descriptivo del cambio"
